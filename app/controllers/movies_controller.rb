@@ -34,6 +34,7 @@ class MoviesController < ApplicationController
       redirect_to :sort => sort, :ratings => @selected_ratings and return
     end
     @movies = Movie.find_all_by_rating(@selected_ratings.keys, ordering)
+   
   end
 
   def new
@@ -50,6 +51,12 @@ class MoviesController < ApplicationController
     @movie = Movie.find params[:id]
   end
 
+  def bytitle
+    title = params[:title] # retrieve movie ID from URI route
+    @movie = Movie.find(:conditions => ['title LIKE ?', title])
+    render 'show'
+  end
+
   def update
     @movie = Movie.find params[:id]
     @movie.update_attributes!(params[:movie])
@@ -62,6 +69,20 @@ class MoviesController < ApplicationController
     @movie.destroy
     flash[:notice] = "Movie '#{@movie.title}' deleted."
     redirect_to movies_path
+  end
+
+
+  def same_director
+    id = params[:id]
+    @movie = Movie.find_by_id(id)
+
+    if @movie.director == nil or @movie.director ==""
+      flash[:warning] = "'#{@movie.title}' has no director info"
+      redirect_to '/'
+      return
+    else
+      @movies_with_same_director = Movie.find_all_by_director(@movie.director)
+    end
   end
 
 end

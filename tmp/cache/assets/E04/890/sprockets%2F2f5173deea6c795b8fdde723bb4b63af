@@ -1,0 +1,56 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1352212052.5881784:@value{I"
+class:EFI"BundledAsset;
+FI"id;
+F"%a36cf2915229c48fd72698ee660b6b9aI"logical_path;
+FI"application.js;
+TI"pathname;
+FI"0$root/app/assets/javascripts/application.js;
+FI"content_type;
+FI"application/javascript;
+FI"
+mtime;
+FI"2012-11-06T17:56:43+04:00;
+FI"	body;
+FI"”// This is a manifest file that'll be compiled into including all the files listed below.
+// Add new JavaScript/Coffee code in separate files in this directory and they'll automatically
+// be included in the compiled file accessible from http://example.com/assets/application.js
+// It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
+// the compiled file.
+//
+;
+;
+FI"asset_paths;
+F[I"e/usr/local/rvm/gems/ruby-1.9.3-p286/gems/jquery-rails-1.0.19/vendor/assets/javascripts/jquery.js;
+FI"i/usr/local/rvm/gems/ruby-1.9.3-p286/gems/jquery-rails-1.0.19/vendor/assets/javascripts/jquery_ujs.js;
+FI"0$root/app/assets/javascripts/application.js;
+FI"dependency_paths;
+F[	{I"	path;
+FI"0$root/app/assets/javascripts/application.js;
+FI"
+mtime;
+FIu:	TimeÍ(€¥½Õ
+:@_zoneI"	SAMT;
+T:nano_numik:nano_deni:submicro"‡P:offseti@8I"hexdigest;
+F"%549ddbd6cc7eb5cac3ef01164f35f695{I"	path;
+FI"!$root/app/assets/javascripts;
+FI"
+mtime;
+FIu;Í(€¥½Õ
+;I"	SAMT;
+T;ik;i;"‡P;i@8I"hexdigest;
+F"%d4f88971c1988e00732efc3b47e84f9d{I"	path;
+FI"e/usr/local/rvm/gems/ruby-1.9.3-p286/gems/jquery-rails-1.0.19/vendor/assets/javascripts/jquery.js;
+FI"
+mtime;
+FIu;Í(€Î»â
+;I"	SAMT;
+T;ig;i;"aP;i@8I"hexdigest;
+F"%683679b346b30943f8589b640966202a{I"	path;
+FI"i/usr/local/rvm/gems/ruby-1.9.3-p286/gems/jquery-rails-1.0.19/vendor/assets/javascripts/jquery_ujs.js;
+FI"
+mtime;
+FIu;Í(€Î»â
+;I"	SAMT;
+T;ig;i;"aP;i@8I"hexdigest;
+F"%2caafa0c2617f9985c1a0b07ebaefadfI"_version;
+F"%46dde6621c301f4928e3b34efee9e3b5
